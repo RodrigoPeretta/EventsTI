@@ -1,4 +1,6 @@
 EventsTI::Application.routes.draw do
+  get "events/admin"
+
   get "about/AboutUs"
 
   get "home/index"
